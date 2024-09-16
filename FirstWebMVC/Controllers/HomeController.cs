@@ -23,9 +23,10 @@ public class HomeController : Controller
         return View();
     }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-    }
+   public IActionResult Index (string Fullname, string Address)
+   {
+    string str0utput = "Xin chào" + Fullname+ " đến từ" + Address; 
+    ViewBag.Message = str0utput;
+    return View();
+   }
 }
