@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  text-align: center;
+  color: red;
+} 
+</style>
+</head>
+<body>
+
+<p>Every paragraph will be affected by the: Nguyễn Thị Ngát 2121050192 style.</p>
+<p id="para1">Me too!: Nguyễn Thị Ngát 2121050192</p>
+<p>And me!: Nguyễn Thị Ngát 2121050192</p>
+
+</body>
+</html>
