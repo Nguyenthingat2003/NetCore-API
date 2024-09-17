@@ -2,12 +2,15 @@ using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
 namespace FirstWebMVC.Controllers
 {
-    public class Stdentcontroller : Controller
+    public class StudentController : Controller
     { 
         // GET: /Student/
-        public IActionResult Demo()
+        public IActionResult Index()
         {
             return View ();
+
+             public IActionResult Demo()
+             return View ();
         } 
         // GET: /Student/Welcome/ 
 

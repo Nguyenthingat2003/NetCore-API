@@ -6,12 +6,7 @@ namespace FirstWebMVC.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
+   
 
     public IActionResult Index()
     {
@@ -23,10 +18,6 @@ public class HomeController : Controller
         return View();
     }
 
-   public IActionResult Index (string Fullname, string Address)
-   {
-    string str0utput = "Xin chào" + Fullname+ " đến từ" + Address; 
-    ViewBag.Message = str0utput;
-    return View();
-   }
-}
+
+
+  
