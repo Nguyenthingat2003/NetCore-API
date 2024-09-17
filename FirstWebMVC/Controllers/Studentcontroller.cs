@@ -2,14 +2,14 @@ using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
 namespace FirstWebMVC.Controllers
 {
-    public class HelloWorldController : Controller
+    public class Stdentcontroller : Controller
     { 
-        // GET: /HelloWorld/
-        public IActionResult Index()
+        // GET: /Student/
+        public IActionResult Demo()
         {
             return View ();
         } 
-        // GET: /HelloWorld/Welcome/ 
+        // GET: /Student/Welcome/ 
 
         public string Welcome()
         {
