@@ -29,3 +29,4 @@ C:\Users\DELL\Downloads\PTPMQL\NET_CODE_API\FirstWebMVC\obj\Debug\net8.0\refint\
 C:\Users\DELL\Downloads\PTPMQL\NET_CODE_API\FirstWebMVC\obj\Debug\net8.0\FirstWebMVC.pdb
 C:\Users\DELL\Downloads\PTPMQL\NET_CODE_API\FirstWebMVC\obj\Debug\net8.0\FirstWebMVC.genruntimeconfig.cache
 C:\Users\DELL\Downloads\PTPMQL\NET_CODE_API\FirstWebMVC\obj\Debug\net8.0\ref\FirstWebMVC.dll
+C:\Users\DELL\Downloads\PTPMQL\NET_CODE_API\FirstWebMVC\obj\Debug\net8.0\FirstWebMVC.csproj.AssemblyReference.cache

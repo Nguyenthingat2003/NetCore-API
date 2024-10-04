@@ -8,15 +8,7 @@ namespace FirstWebMVC.Controllers
         public IActionResult Index()
         {
             return View ();
-
-             public IActionResult Demo()
-             return View ();
         } 
         // GET: /Student/Welcome/ 
-
-        public string Welcome()
-        {
-            return "This is the Welcome action method...";
-        }
     }
 }
