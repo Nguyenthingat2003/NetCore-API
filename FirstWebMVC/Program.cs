@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using FirstWebMvc.Data;
+using FirstWebMVC.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.")));
